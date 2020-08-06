@@ -25,8 +25,8 @@ jobs:
     # Runs a single command using the runners shell
     - name: installing Node
       uses: actions/setup-node@v2-beta
-         with:
-           node-version: '12'
+      with:
+        node-version: '12'
     # Step to Install Surge
     - name: Installing Surge
       run: npm install --global surge
