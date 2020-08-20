@@ -110,14 +110,6 @@ body{
         perspective: 950px;
         margin-bottom: 30px;
     }
-    #home::before,#buy::before {
-        top: 0;
-        border-radius: 0 0 50% 50%;
-    }
-
-    #home:hover::before,#buy:hover::before {
-        height: 180%;
-    }
 
     .buttons::before {
         content: "";
@@ -152,3 +144,5 @@ body{
         color: black;
         cursor: pointer;
     }
+
+   
