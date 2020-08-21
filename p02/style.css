@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: rgb(0, 0, 0);
+    background-color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -88,7 +88,7 @@ body{
     list-style-type: none;
     display: flex;
     justify-content: space-between;
-    margin: 45px;
+    margin: 35px;
     }
 
     .legend li {
@@ -112,47 +112,21 @@ body{
     }
 
     .container {
-        perspective: 950px;
+        perspective: 1500px;
         margin-bottom: -1px;
         margin-left: -10px;
         margin-top: -25px;
     }
    
 
-    .buttons::before {
-        content: "";
-        background: #3498db;
-        z-index: -1;
-        transition: 0.8s;
-    }
-    p.text {
+   p.text {
         margin: 5px 0;
+        margin-top: 15px;
     }
 
     p.text span {
         color: aqua;
     }
-
-    .buttons {
-        margin-top: 15px;
-    }
-    #home {
-        margin: 20px;
-        padding: 10px;
-        border-radius: 5px;
-    }
-
-    #buy {
-        padding: 10px 17px;
-        border-radius: 5px;
-    }
-    
-
-    #home,#buy {
-        color: black;
-        cursor: pointer;
-    }
-
     .screen iframe {
         height: 240px;
         width: 380px;
