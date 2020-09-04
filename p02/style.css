@@ -2,7 +2,11 @@
 
 *{
     box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
 }
+
 
 body{
     background-color: black;
