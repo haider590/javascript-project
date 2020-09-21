@@ -3,7 +3,7 @@
 :root {
     --primary-color: black;
     --secondary-color: yellow;
-    --modal-duartion: 1.5s;
+    --modal-duartion: 2s;
 }
 
 *{
@@ -81,7 +81,7 @@ header h1 {
 }
 
 header p {
-    margin: 30px 0;const open = document.getElementById('open');
+    margin: 30px 0;
 }
 
 button, input[type='submit'] {
