@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <title>Rendom Meal Finder</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Random Meal Finder</h1>
+
+        <!--The Search Form-->
+        <div class="flex">
+            <form class="flex" id="submit">
+                <input type="text" id="search" placeholder="Enter your meal for search.">
+                <button class="search-btn" type="submit">
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+            <button class="random-btn" id="random">
+                <i class="fas fa-random"></i>
+            </button>
+        </div>
+
+        <a href="../index.html"><button class="home">Home</button></a>
+
+        <!--Result Heading-->
+        <div id="result-heading"></div>
+
+        <!--Container div for all meals for API search-->
+        <div class="meals" id="meals"></div>
+        
+        <!--To display additional information for a  selected meal-->
+        <div id="selected-meal"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
