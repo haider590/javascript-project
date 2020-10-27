@@ -1,0 +1,95 @@
+/*
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar {
+    background-color: white;
+    text-align: center;
+}
+
+.nav-bar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.heading{
+    position: relative;
+    display: flex;
+    top: 5px;
+    left: 10px;
+}
+
+.nav-bar ul li {
+    width: 100px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.links {
+    position: relative;
+}
+
+.projects {
+    position: absolute;
+    width: 180px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 18px;
+    opacity: 0;
+    transition: 3s all;
+    padding: 5px;
+}
+
+.links:hover .projects {
+    opacity: 1;
+}
+
+.projects li {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    display: list-item;
+}
+*/
+
+
+
+
+.heading {
+    color: white;
+    padding: 5px;
+}
+
+.list li {
+    color: white;
+    line-height: 20px;
+    padding: 10px;
+}
+
+.list li a {
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+
+body {
+    background-image: url(bgformain/wallpapers/jung.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+}
+
+
+
+.list li a:hover {
+    color: skyblue;
+}
