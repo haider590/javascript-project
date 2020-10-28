@@ -1,95 +1,54 @@
-/*
 * {
-    padding: 0;
     margin: 0;
-    box-sizing: border-box;
 }
 
-.nav-bar {
-    background-color: white;
-    text-align: center;
+.bg {
+    background-image: cover;
 }
 
-.nav-bar ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+.background img {
+    height: 100%;
+    width: 100%;
+    position: fixed;
 }
 
-.heading{
-    position: relative;
-    display: flex;
-    top: 5px;
-    left: 10px;
+.background {
 }
-
-.nav-bar ul li {
-    width: 100px;
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-    
-}
-
-.links {
-    position: relative;
-}
-
-.projects {
-    position: absolute;
-    width: 180px;
-    height: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-top: 18px;
-    opacity: 0;
-    transition: 3s all;
-    padding: 5px;
-}
-
-.links:hover .projects {
-    opacity: 1;
-}
-
-.projects li {
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    display: list-item;
-}
-*/
-
-
-
 
 .heading {
-    color: white;
-    padding: 5px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    color: black;
+    margin: 0;
 }
 
-.list li {
-    color: white;
-    line-height: 20px;
-    padding: 10px;
+.text {
+    position: fixed;
 }
 
-.list li a {
-    color: white;
+
+/* Projects links styling*/
+.links {
+    position: fixed;
+}
+
+.links-list {
+    position: relative;
+    top: 50px;
+    left: 5px;
+}
+
+.links-list li {
+    line-height: 30px;
+    list-style: none;
+}
+
+.links-list li a {
+    color: black;
+}
+
+.links-list li a:hover {
     transition: 0.2s ease-in-out;
-}
-
-body {
-    background-image: url(bgformain/wallpapers/jung.jpg);
-    background-size: cover;
-    font-family: sans-serif;
-    background-repeat: no-repeat;
-}
-
-
-
-.list li a:hover {
-    color: skyblue;
+    color: blue;
 }
