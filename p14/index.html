@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Web Speech</title>
+</head>
+<body>
+    <div class="container">
+        <!--Title of the page-->
+        <h1>Web Speech</h1>
+        <!--Button to display the custom text div-->
+        <button class="btn toggle-btn" id="toggle">
+            Toggle custom text
+        </button>
+        <!--This si the custom text div, toggled by the toggle button-->
+        <div class="custom-text" id="custom-text">
+            <!--X button to close the custom text dropdown-->
+            <div class="close" id="close">X</div>
+            <!--Heading for change voice section-->
+            <h3>Change Voice</h3>
+            <!--Add voices with javascript-->
+            <select id="voices"></select>
+            <!--Text input for getting custom text for user -->
+            <textarea id="text" placeholder="please provide your custom text for the web speech API"></textarea>
+            <!--button to sumit the text to the reader-->
+            <button class="btn" id="read">Read custom text</button>
+        </div>
+        <!--This is where js will create html coad for images buttons to be read -->
+        <main id="main"></main>
+    </div>    
+
+    <script src="script.js"></script>
+</body>
+</html>
