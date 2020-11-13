@@ -144,3 +144,21 @@ main {
         grid-template-columns: 1fr;
     }
 }
+
+.home {
+    position: relative;
+    bottom: 0;
+    left: 45%;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    outline: none;
+    background-color: #d35400;
+    color: white;
+    width: 10%;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
