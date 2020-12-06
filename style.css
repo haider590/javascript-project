@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    box-sizing: border-box;
 }
 
 .bg {
@@ -21,19 +22,19 @@
 }
 
 .text {
-    position: fixed;
+    position: relative;
 }
 
 
 /* Projects links styling*/
+
 .links {
-    position: fixed;
+    position: relative;
 }
 
 .links-list {
     position: relative;
-    top: 50px;
-    left: 5px;
+    top: 20px;
 }
 
 .links-list li {
@@ -51,3 +52,6 @@
     color: blue;
 }
 
+.main-container {
+    position: absolute;
+}
