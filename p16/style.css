@@ -38,10 +38,8 @@ body {
     justify-content: flex-start;
 }
 
-header{
-    width: 100%;
-    border-bottom: 1px solid black;
-    color: black;
+.heading {
+    color: white;
 }
 
 small {
