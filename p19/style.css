@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+:focus {
+    outline: 0;
+}
+
+.heading {
+    background-color: slateblue;
+    color: white;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.para {
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.list-container {
+    list-style-type: none;
+    width: 400px;
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    margin-bottom: 10px;
+    color: rgb(250, 250, 250);
+    margin-bottom: 15px;
+    border-radius: 25px;
+}
+
+
+.number {
+    cursor: not-allowed;
+    text-align: center;
+    line-height: 43px;
+    background-color: rgb(255, 255, 255);
+    border: 4px solid orange;
+    color: black;
+    flex: 1;
+    height: 50px;
+    max-width: 50px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.draggable {
+    cursor: pointer;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    height: 50px;
+    border-radius: 50px;
+    border: 4px solid orange;
+
+}
+
+.draggable.success {
+    border-color: green;
+}
+
+.draggable.error {
+    border-color: red;
+}
+
+.draggable p {
+    padding-left: 20px;
+}
+
+.draggable i {
+    padding: 10px;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    cursor: pointer;
+    padding: 20px 30px;
+    width: 200px;
+    max-width: 90%;
+    margin-top: 15px;
+    border-radius: 10px;
+    outline: none;
+    border: 0;
+    background-color: gray;
+}
+
+.btn:last-of-type {
+    margin-bottom: 20px;
+}
+
+.btn:hover {
+    transition: 0.21s ease-in-out;
+    transform: scale(1.1);
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
